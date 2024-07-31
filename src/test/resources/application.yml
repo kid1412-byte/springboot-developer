@@ -10,20 +10,17 @@ spring:
       client:
         registration:
           google:
-            client-id: 1050174999768-jen22er3fl7n70ut9paptgo0bdb9fhqv.apps.googleusercontent.com
-            client-secret: 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
+            client-id: test_id
+            client-secret: test_secret
             scope:
               - email
               - profile
 
-  datasource:
-    url: jdbc:h2:mem:testdb
-    username: sa
   h2:
     console:
       enabled: true
 
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test_key
 
